@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorPrimary">
+
+    <include layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/vertical_margin">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/vertical_margin"
+                android:layout_marginHorizontal="@dimen/horizontal_margin"
+                android:text="Фамилия"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="?attr/colorTextAndTint" />
+
+            <EditText
+                android:id="@+id/lastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/horizontal_margin"
+                android:textSize="14sp"
+                android:textColor="?attr/colorTextAndTint" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/vertical_margin"
+                android:layout_marginHorizontal="@dimen/horizontal_margin"
+                android:text="Имя"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="?attr/colorTextAndTint" />
+
+            <EditText
+                android:id="@+id/firstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/horizontal_margin"
+                android:textSize="14sp"
+                android:textColor="?attr/colorTextAndTint" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/vertical_margin"
+                android:layout_marginHorizontal="@dimen/horizontal_margin"
+                android:text="Отчество"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="?attr/colorTextAndTint" />
+
+            <EditText
+                android:id="@+id/middleName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/horizontal_margin"
+                android:textSize="14sp"
+                android:textColor="?attr/colorTextAndTint" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/vertical_margin"
+                android:layout_marginHorizontal="@dimen/horizontal_margin"
+                android:text="Номер телефона для входа"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="?attr/colorTextAndTint" />
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/horizontal_margin"
+                android:textColor="?attr/colorTextAndTint"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/vertical_margin"
+                android:layout_marginHorizontal="@dimen/horizontal_margin"
+                android:text="Пароль для входа"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="?attr/colorTextAndTint" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/horizontal_margin"
+                android:inputType="textPassword"
+                android:textColor="?attr/colorTextAndTint"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/vertical_margin"
+                android:layout_marginHorizontal="@dimen/horizontal_margin"
+                android:text="Биография"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="?attr/colorTextAndTint" />
+
+            <EditText
+                android:id="@+id/biography"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/horizontal_margin"
+                android:textSize="14sp"
+                android:textColor="?attr/colorTextAndTint" />
+
+            <TextView
+                android:id="@+id/regBtn"
+                android:background="@drawable/background_button"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginTop="@dimen/vertical_margin"
+                android:layout_marginHorizontal="@dimen/horizontal_margin"
+                android:gravity="center"
+                android:text="Зарегистрировать специалиста"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:clickable="true"
+                android:focusable="true" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

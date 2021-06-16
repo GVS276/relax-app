@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "399461728697",
+    "project_id": "relax-app-da06d",
+    "storage_bucket": "relax-app-da06d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399461728697:android:a56b7266875e616f67f668",
+        "android_client_info": {
+          "package_name": "com.vg276.relaxapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "399461728697-ovqfcfabn4vl9mk3pj96b4o33f5k74l7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCTYSINgOHf65ikuQ8OqSHH9NdzYBOKp0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "399461728697-ovqfcfabn4vl9mk3pj96b4o33f5k74l7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

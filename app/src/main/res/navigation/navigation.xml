@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_navigation"
+    app:startDestination="@+id/navigation_calendar">
+
+    <fragment
+        android:id="@+id/navigation_calendar"
+        android:name="com.vg276.relaxapp.ui.fragments.main.CalendarFragment"
+        android:label="@string/record"
+        tools:layout="@layout/fragment_calendar" />
+
+    <fragment
+        android:id="@+id/navigation_specialist"
+        android:name="com.vg276.relaxapp.ui.fragments.main.SpecialistFragment"
+        android:label="@string/specialists"
+        tools:layout="@layout/fragment_specialist" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.vg276.relaxapp.ui.fragments.main.SettingsFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_settings" />
+
+    <!-- Login / Registration -->
+
+    <fragment
+        android:id="@+id/navigation_login"
+        android:name="com.vg276.relaxapp.ui.fragments.login.LoginFragment"
+        android:label="@string/authorization"
+        tools:layout="@layout/fragment_login" />
+
+    <fragment
+        android:id="@+id/navigation_create_account"
+        android:name="com.vg276.relaxapp.ui.fragments.login.CreateAccountFragment"
+        android:label="@string/registration"
+        tools:layout="@layout/fragment_create_account" />
+
+    <fragment
+        android:id="@+id/navigation_create_account_spec"
+        android:name="com.vg276.relaxapp.ui.fragments.login.CreateAccountSpecFragment"
+        android:label="Добавить специалиста"
+        tools:layout="@layout/fragment_create_account_spec" />
+
+    <!-- User Profile and etc... -->
+
+    <fragment
+        android:id="@+id/navigation_user_profile"
+        android:name="com.vg276.relaxapp.ui.fragments.UserProfileFragment"
+        android:label="@string/your_profile"
+        tools:layout="@layout/fragment_user_profile" />
+
+    <fragment
+        android:id="@+id/navigation_spec_profile"
+        android:name="com.vg276.relaxapp.ui.fragments.SpecProfileFragment"
+        android:label="Spec prifile"
+        tools:layout="@layout/fragment_spec_profile" />
+</navigation>

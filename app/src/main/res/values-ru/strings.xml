@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RelaxAPP</string>
+
+    <string name="record">Запись</string>
+    <string name="specialists">Специалисты</string>
+    <string name="profile">Профиль</string>
+    <string name="your_profile">Ваш профиль</string>
+
+    <string name="record_subtitle">Здесь Вы можете выбрать дату и время записи на массаж</string>
+    <string name="log_in_profile">Войти в свой профиль</string>
+
+    <string name="settings">Настройки</string>
+    <string name="settings_subtitle">Перейти к настройкам</string>
+
+    <string name="about">О нас</string>
+    <string name="about_subtitle">Здесь вы можете познакомиться с нами</string>
+
+    <string name="your_phone">Ваш номер телефона</string>
+    <string name="your_role">Ваша роль</string>
+    <string name="your_password">Ваш пароль</string>
+    <string name="your_name">Ваше имя</string>
+
+    <string name="login">Войти</string>
+    <string name="logout">Выйти</string>
+    <string name="registration">Зарегистрироваться</string>
+    <string name="authorization">Авторизация</string>
+</resources>

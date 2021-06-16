@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">RelaxAPP</string>
+
+    <string name="record">Record</string>
+    <string name="specialists">Specialists</string>
+    <string name="profile">Profile</string>
+    <string name="your_profile">Your profile</string>
+
+    <string name="record_subtitle">Here you can choose the date and time of your massage appointment</string>
+    <string name="log_in_profile">Log in to your profile</string>
+
+    <string name="settings">Settings</string>
+    <string name="settings_subtitle">Go to Settings</string>
+
+    <string name="about">About</string>
+    <string name="about_subtitle">Here you can get to know us</string>
+
+    <string name="your_phone">Your phone number</string>
+    <string name="your_role">Your role</string>
+    <string name="your_password">Your password</string>
+    <string name="your_name">Your first name</string>
+
+    <string name="login">Log in</string>
+    <string name="logout">Log out</string>
+    <string name="registration">Register</string>
+    <string name="authorization">Authorization</string>
+</resources>
